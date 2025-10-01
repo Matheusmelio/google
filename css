@@ -4,43 +4,43 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  header {
+}
+
+header {
     display: flex;
     justify-content: flex-end;
     padding: 15px 20px;
     font-size: 14px;
-  }
-  
-  header a {
+}
+
+header a {
     margin-left: 15px;
     text-decoration: none;
     color: #000;
-  }
-  
-  header .login {
+}
+
+header .login {
     background: #1a73e8;
     color: #fff;
     padding: 8px 15px;
     border-radius: 4px;
     font-weight: bold;
-  }
-  
-  main {
+}
+
+main {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  
-  main img {
-    width: 400px;
-    margin-bottom: 0px;
-  }
-  
-  .search-box {
+}
+
+main img {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.search-box {
     display: flex;
     align-items: center;
     border: 1px solid #dcdcdc;
@@ -48,20 +48,40 @@ body {
     width: 660px;
     max-width: 90%;
     padding: 10px 15px;
-  }
-  
-  .search-box input {
+    margin-top: 10px;
+    position: relative;
+}
+
+.search-box input {
     border: none;
     outline: none;
     flex: 1;
     font-size: 16px;
-  }
-  
-  .buttons {
+    padding-left: 35px; 
+}
+
+
+.search-box .search-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;  
+}
+
+
+.search-box .mic-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 15px; 
+}
+
+
+.buttons {
     margin-top: 20px;
-  }
-  
-  .buttons button {
+}
+
+.buttons button {
     margin: 5px;
     padding: 10px 20px;
     border: none;
@@ -69,19 +89,19 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
-  }
-  
-  footer {
+}
+
+footer {
     background: #f2f2f2;
     font-size: 14px;
     color: #70757a;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-  }
-  
-  footer a {
+}
+
+footer a {
     text-decoration: none;
     color: #70757a;
     margin: 0 10px;
-  }
+}
